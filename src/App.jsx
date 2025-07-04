@@ -109,7 +109,7 @@ const App = () => {
         {renderContent()}
       </main>
       <footer className="text-center mt-8 text-slate-500 text-sm no-print">
-        <p>&copy; 2025 NGUYEN TRUNG NGUYEN. All rights reserved.</p>
+        <p>&copy; 2025 BVTH-CNTT. All rights reserved.</p>
       </footer>
     </div>
   );
