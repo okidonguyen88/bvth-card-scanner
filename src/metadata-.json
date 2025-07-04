@@ -1,0 +1,7 @@
+{
+  "name": "ID Card Scanner",
+  "description": "A simple web application to capture an ID card image from your webcam, crop it, and prepare it for printing.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

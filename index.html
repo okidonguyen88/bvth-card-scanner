@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HỖ TRỢ CNTT - BVTH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #0f172a; /* bg-slate-900 */
+      }
+      @media print {
+        body {
+          background-color: #ffffff;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .print-only-image {
+          display: block !important;
+          width: 100%;
+          height: auto;
+          margin: 0;
+          padding: 0;
+          page-break-after: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+  </body>
+</html>
